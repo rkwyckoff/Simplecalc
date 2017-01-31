@@ -11,5 +11,33 @@ function add () {
   console.log(num1 + num2);
   var answer = num1 + num2;
   results.innerHTML = answer;
+
+  function subtract () {
+    var num1 = Number(textBox1.value);
+    var num2 = Number(textBox2.value);
+    console.log(num1 - num2);
+    var answer = num1 - num2;
+    results.innerHTML = answer;
+  }
+  function multiply () {
+    var num1 = Number(textBox1.value);
+    var num2 = Number(textBox2.value);
+    console.log(num1 * num2);
+    var answer = num1 * num2;
+    results.innerHTML = answer;
+  }
+  function divide () {
+    var num1 = Number(textBox1.value);
+    var num2 = Number(textBox2.value);
+    console.log(num1 / num2);
+    var answer = num1 / num2;
+    results.innerHTML = answer;
+  }
 }
+calculateButton.addEventListener('click', add);
+calculateButton.addEventListener('click', add);
+calculateButton.addEventListener('click', add);
+calculateButton.addEventListener('click', add);
+calculateButton.addEventListener('click', add);
+calculateButton.addEventListener('click', add);
 calculateButton.addEventListener('click', add);

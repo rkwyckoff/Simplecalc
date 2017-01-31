@@ -17,10 +17,15 @@ button {
   font-size: 20px;
   text-align: center;
 }
-.button-clear {
+
+#button-clear {
   width: 85px;
   height: 85px;
-  float:left;
+  margin-bottom: -3px;
+}
+
+.button-clear-class {
+  margin-bottom: -3px;
 }
 
 .answer {
